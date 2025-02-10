@@ -1,6 +1,6 @@
 #include <iostream>
-#include "horse.cpp"
-#include "race.cpp"
+#include "horse.h"
+#include "race.h"
 
 int main(){
     std::cout << "hello" << std::endl;
