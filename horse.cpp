@@ -1,12 +1,22 @@
 //horse.cpp
 #include "horse.h"
+#include <iostream>
 
 Horse::Horse(){
-    Horse::id = 0;
+    id = 0;
+    position = 0;
 }
 
-Horse::Horse(int id):
-    Horse::id = id;
+Horse::Horse(int id){
+    this->id = id;
+}
 
-void advance(int id, int position){
-    Horse::id
+void Horse::advance(){
+    std::cout << "advance" << std::endl;
+}
+void Horse::printLane(){
+    std::cout << "my id is " << id << std::endl;
+}
+bool Horse::isWinner(){
+    std::cout << "isWinner" << std::endl;
+}

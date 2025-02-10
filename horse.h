@@ -9,9 +9,9 @@ class Horse {
     public:
         Horse();
         Horse(int id);
-        void advance(int id, int position);
-        void printLane(int id, int position);
-        bool isWinner(int id, int position);
+        void advance();
+        void printLane();
+        bool isWinner();
 };
 
 #endif
