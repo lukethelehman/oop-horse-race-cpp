@@ -5,10 +5,11 @@
 
 class Race {
     private:
-        int horses[5];
+        static const int NUM_HORSES = 5;
+        Horse horses[NUM_HORSES];
     public:
         Race();
-        void start(int horses);
+        void start();
 };
 
 #endif
