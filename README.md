@@ -1,2 +1,3 @@
 **Object Oriented Horse-Race**
-I'm submitting this repo blank (I accidently rm'ed half my files) so that it's not late on canvas. If whoever grades this happens to see it before Sunday 2/9/25, I will have it completed before that night, I just need some extra time, thanks!
+
+I had to miss class Friday, and I fell behind a bit with the project. I'm working at finishing it and want to fully understand everything. If you happen to be grading this project already, I'll have it finished by Monday night. Thanks!
