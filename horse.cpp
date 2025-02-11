@@ -35,5 +35,10 @@ void Horse::printLane(){
         
 }
 bool Horse::isWinner(){
-    std::cout << "isWinner" << std::endl;
+    if (position >= 15){
+        return true;
+    }
+    else {
+        return false;
+    }
 }
