@@ -31,7 +31,7 @@ void Horse::printLane(){
             std::cout << ".";
         }
     }
-    std::cout << "" << std::endl;
+    std::cout << std::endl;
         
 }
 bool Horse::isWinner(){
