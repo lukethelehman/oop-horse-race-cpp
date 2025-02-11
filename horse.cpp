@@ -35,7 +35,7 @@ void Horse::printLane(){
         
 }
 bool Horse::isWinner(){
-    if (position >= 15){
+    if (position >= TRACK_LENGTH){
         return true;
     }
     else {
